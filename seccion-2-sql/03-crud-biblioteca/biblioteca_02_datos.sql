@@ -1,7 +1,3 @@
--- ============================================================
--- 02_datos.sql
--- Población de datos del modelo biblioteca
--- ============================================================
 
 -- Autor
 INSERT INTO "autor" ("id", "nombre") VALUES

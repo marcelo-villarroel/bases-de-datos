@@ -1,7 +1,3 @@
--- ============================================================
--- 06_vista_global_biblioteca.sql
--- Ejercicio Final: Creación de Vista Unificada
--- ============================================================
 
 CREATE VIEW "vista_global_biblioteca" AS
 SELECT
@@ -30,5 +26,3 @@ LEFT JOIN "prestamo" p ON p."libro" = l."id"
 LEFT JOIN "usuario" u ON u."id" = p."usuario"
 LEFT JOIN "multa" m ON m."prestamo_usuario" = p."usuario" AND m."prestamo_libro" = p."libro";
 
--- Ejemplo de uso:
--- SELECT * FROM "vista_global_biblioteca" ORDER BY libro_id;

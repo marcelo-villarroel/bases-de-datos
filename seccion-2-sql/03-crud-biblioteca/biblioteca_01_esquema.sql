@@ -1,7 +1,4 @@
--- ============================================================
--- 01_esquema.sql
--- Creación de tablas, índices y llaves foráneas del modelo biblioteca
--- ============================================================
+
 
 CREATE TABLE "autor" (
   "id" SERIAL PRIMARY KEY,
