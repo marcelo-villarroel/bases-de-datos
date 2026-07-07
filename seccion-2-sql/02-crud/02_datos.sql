@@ -1,9 +1,4 @@
--- ============================================================
--- 02_datos.sql
--- Población de datos del modelo académico
--- ============================================================
 
--- Profesor
 INSERT INTO "profesor" ("profesor_id", "nombre") VALUES
 (1, 'Prof. Juan Hernández'),
 (2, 'Prof. Elena Ruiz'),

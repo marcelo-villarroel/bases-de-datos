@@ -1,7 +1,3 @@
--- ============================================================
--- 01_esquema.sql
--- Creación de tablas, índices y llaves foráneas del modelo académico
--- ============================================================
 
 CREATE TABLE "alumno" (
   "alumno_id" SERIAL PRIMARY KEY,

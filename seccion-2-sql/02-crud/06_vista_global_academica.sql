@@ -1,7 +1,3 @@
--- ============================================================
--- 06_vista_global_academica.sql
--- Ejercicio Final: Creación de Vista Unificada
--- ============================================================
 
 CREATE VIEW "vista_global_academica" AS
 SELECT
@@ -30,5 +26,4 @@ LEFT JOIN "horario" h ON h."curso" = c."curso_id"
 LEFT JOIN "sala"    s ON s."sala_id" = h."sala"
 LEFT JOIN "nota"    n ON n."alumno" = a."alumno_id" AND n."curso" = c."curso_id";
 
--- Ejemplo de uso:
--- SELECT * FROM "vista_global_academica" ORDER BY alumno_id, curso_id;
+
